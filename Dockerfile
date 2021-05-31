@@ -62,6 +62,25 @@ RUN curl -L https://downloads.sourceforge.net/libjpeg-turbo/libjpeg-turbo-2.0.4.
 RUN cp -a /opt/lib64/libjpeg.so* /build/share/lib && \
     cp -a /opt/lib64/libturbojpeg.so* /build/share/lib
 
+# Install libwebp
+#
+RUN curl -L https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.2.0.tar.gz > libwebp-1.2.0.tar.gz && \
+    tar xzf libwebp-1.2.0.tar.gz && \
+    cd libwebp-1.2.0 && \
+    ./autogen.sh && \
+    ./configure \
+      --prefix=/opt \
+      --enable-libwebpmux \
+      --enable-libwebpdemux \
+      --enable-libwebpdecoder && \
+    make && \
+    make install
+
+RUN cp -a /opt/lib/libwebp.so* /build/share/lib && \
+    cp -a /opt/lib/libwebpmux.so* /build/share/lib && \
+    cp -a /opt/lib/libwebpdemux.so* /build/share/lib && \
+    cp -a /opt/lib/libwebpdecoder.so* /build/share/lib
+
 # Install libimagequant
 #
 RUN git clone https://github.com/ImageOptim/libimagequant.git && \
