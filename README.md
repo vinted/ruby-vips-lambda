@@ -29,59 +29,104 @@ Current size of the layer's un-compressed contents is around `28MB` in size. Con
 
 ```shell
 $ ls -lAGp /opt/lib
-lrwxrwxrwx 1 root       18 Sep 19 22:46 libexpat.so -> libexpat.so.1.6.11
-lrwxrwxrwx 1 root       18 Sep 19 22:46 libexpat.so.1 -> libexpat.so.1.6.11
--rwxr-xr-x 1 root   231496 Sep 19 22:46 libexpat.so.1.6.11
-lrwxrwxrwx 1 root       11 Sep 19 22:53 libffi.so -> libffi.so.7
-lrwxrwxrwx 1 root       15 Sep 19 22:53 libffi.so.7 -> libffi.so.7.1.0
--rwxr-xr-x 1 root   196304 Sep 19 22:52 libffi.so.7.1.0
--rwxr-xr-x 1 root      926 Sep 19 22:50 libfftw3.la
-lrwxrwxrwx 1 root       17 Sep 19 22:50 libfftw3.so -> libfftw3.so.3.5.8
-lrwxrwxrwx 1 root       17 Sep 19 22:50 libfftw3.so.3 -> libfftw3.so.3.5.8
--rwxr-xr-x 1 root  2327176 Sep 19 22:50 libfftw3.so.3.5.8
--rwxr-xr-x 1 root     1004 Sep 19 22:50 libfftw3_threads.la
-lrwxrwxrwx 1 root       25 Sep 19 22:50 libfftw3_threads.so -> libfftw3_threads.so.3.5.8
-lrwxrwxrwx 1 root       25 Sep 19 22:50 libfftw3_threads.so.3 -> libfftw3_threads.so.3.5.8
--rwxr-xr-x 1 root    33968 Sep 19 22:50 libfftw3_threads.so.3.5.8
-lrwxrwxrwx 1 root       11 Sep 19 22:46 libgif.so -> libgif.so.7
-lrwxrwxrwx 1 root       15 Sep 19 22:46 libgif.so.7 -> libgif.so.7.2.0
--rwxr-xr-x 1 root    36568 Sep 19 22:46 libgif.so.7.2.0
-lrwxrwxrwx 1 root       15 Sep 19 22:53 libgio-2.0.so -> libgio-2.0.so.0
-lrwxrwxrwx 1 root       22 Sep 19 22:53 libgio-2.0.so.0 -> libgio-2.0.so.0.6400.2
--rwxr-xr-x 1 root 10701792 Sep 19 22:53 libgio-2.0.so.0.6400.2
-lrwxrwxrwx 1 root       16 Sep 19 22:53 libglib-2.0.so -> libglib-2.0.so.0
-lrwxrwxrwx 1 root       23 Sep 19 22:53 libglib-2.0.so.0 -> libglib-2.0.so.0.6400.2
--rwxr-xr-x 1 root  5742552 Sep 19 22:52 libglib-2.0.so.0.6400.2
-lrwxrwxrwx 1 root       19 Sep 19 22:53 libgmodule-2.0.so -> libgmodule-2.0.so.0
-lrwxrwxrwx 1 root       26 Sep 19 22:53 libgmodule-2.0.so.0 -> libgmodule-2.0.so.0.6400.2
--rwxr-xr-x 1 root    50400 Sep 19 22:53 libgmodule-2.0.so.0.6400.2
-lrwxrwxrwx 1 root       19 Sep 19 22:53 libgobject-2.0.so -> libgobject-2.0.so.0
-lrwxrwxrwx 1 root       26 Sep 19 22:53 libgobject-2.0.so.0 -> libgobject-2.0.so.0.6400.2
--rwxr-xr-x 1 root  1856656 Sep 19 22:53 libgobject-2.0.so.0.6400.2
-lrwxrwxrwx 1 root       19 Sep 19 22:53 libgthread-2.0.so -> libgthread-2.0.so.0
-lrwxrwxrwx 1 root       26 Sep 19 22:53 libgthread-2.0.so.0 -> libgthread-2.0.so.0.6400.2
--rwxr-xr-x 1 root    14840 Sep 19 22:53 libgthread-2.0.so.0.6400.2
-lrwxrwxrwx 1 root       18 Sep 19 22:47 libimagequant.so -> libimagequant.so.0
--rw-r--r-- 1 root    62432 Sep 19 22:47 libimagequant.so.0
-lrwxrwxrwx 1 root       13 Sep 19 22:47 libjpeg.so -> libjpeg.so.62
-lrwxrwxrwx 1 root       17 Sep 19 22:47 libjpeg.so.62 -> libjpeg.so.62.3.0
--rwxr-xr-x 1 root   475448 Sep 19 22:47 libjpeg.so.62.3.0
-lrwxrwxrwx 1 root       20 Sep 19 22:51 liborc-0.4.so -> liborc-0.4.so.0.25.0
-lrwxrwxrwx 1 root       20 Sep 19 22:51 liborc-0.4.so.0 -> liborc-0.4.so.0.25.0
--rwxr-xr-x 1 root   797976 Sep 19 22:51 liborc-0.4.so.0.25.0
-lrwxrwxrwx 1 root       19 Sep 19 22:46 libpng16.so -> libpng16.so.16.37.0
-lrwxrwxrwx 1 root       19 Sep 19 22:46 libpng16.so.16 -> libpng16.so.16.37.0
--rwxr-xr-x 1 root   285720 Sep 19 22:46 libpng16.so.16.37.0
-lrwxrwxrwx 1 root       11 Sep 19 22:46 libpng.so -> libpng16.so
-lrwxrwxrwx 1 root       17 Sep 19 22:47 libturbojpeg.so -> libturbojpeg.so.0
-lrwxrwxrwx 1 root       21 Sep 19 22:47 libturbojpeg.so.0 -> libturbojpeg.so.0.2.0
--rwxr-xr-x 1 root   596576 Sep 19 22:47 libturbojpeg.so.0.2.0
-lrwxrwxrwx 1 root       18 Sep 19 22:58 libvips.so -> libvips.so.42.12.3
-lrwxrwxrwx 1 root       18 Sep 19 22:58 libvips.so.42 -> libvips.so.42.12.3
--rwxr-xr-x 1 root  4257200 Sep 19 22:58 libvips.so.42.12.3
+drwxr-xr-x 3 root    4096 May 31 16:05 cmake/
+drwxr-xr-x 2 root    4096 May 31 16:11 girepository-1.0/
+-rw-r--r-- 1 root  441838 May 31 16:00 libexpat.a
+-rwxr-xr-x 1 root     920 May 31 16:00 libexpat.la
+lrwxrwxrwx 1 root      18 May 31 16:00 libexpat.so -> libexpat.so.1.6.11
+lrwxrwxrwx 1 root      18 May 31 16:00 libexpat.so.1 -> libexpat.so.1.6.11
+-rwxr-xr-x 1 root  231496 May 31 16:00 libexpat.so.1.6.11
+-rwxr-xr-x 1 root     926 May 31 16:05 libfftw3.la
+lrwxrwxrwx 1 root      17 May 31 16:05 libfftw3.so -> libfftw3.so.3.5.8
+lrwxrwxrwx 1 root      17 May 31 16:05 libfftw3.so.3 -> libfftw3.so.3.5.8
+-rwxr-xr-x 1 root 2327176 May 31 16:05 libfftw3.so.3.5.8
+-rwxr-xr-x 1 root    1004 May 31 16:05 libfftw3_threads.la
+lrwxrwxrwx 1 root      25 May 31 16:05 libfftw3_threads.so -> libfftw3_threads.so.3.5.8
+lrwxrwxrwx 1 root      25 May 31 16:05 libfftw3_threads.so.3 -> libfftw3_threads.so.3.5.8
+-rwxr-xr-x 1 root   33968 May 31 16:05 libfftw3_threads.so.3.5.8
+-rw-r--r-- 1 root   45562 May 31 16:00 libgif.a
+lrwxrwxrwx 1 root      11 May 31 16:00 libgif.so -> libgif.so.7
+lrwxrwxrwx 1 root      15 May 31 16:00 libgif.so.7 -> libgif.so.7.2.0
+-rwxr-xr-x 1 root   36568 May 31 16:00 libgif.so.7.2.0
+-rw-r--r-- 1 root   80414 May 31 16:02 libimagequant.a
+lrwxrwxrwx 1 root      18 May 31 16:02 libimagequant.so -> libimagequant.so.0
+-rw-r--r-- 1 root   62432 May 31 16:02 libimagequant.so.0
+-rwxr-xr-x 1 root     956 May 31 16:05 liborc-0.4.la
+lrwxrwxrwx 1 root      20 May 31 16:05 liborc-0.4.so -> liborc-0.4.so.0.25.0
+lrwxrwxrwx 1 root      20 May 31 16:05 liborc-0.4.so.0 -> liborc-0.4.so.0.25.0
+-rwxr-xr-x 1 root  797976 May 31 16:05 liborc-0.4.so.0.25.0
+-rwxr-xr-x 1 root    1009 May 31 16:05 liborc-test-0.4.la
+lrwxrwxrwx 1 root      25 May 31 16:05 liborc-test-0.4.so -> liborc-test-0.4.so.0.25.0
+lrwxrwxrwx 1 root      25 May 31 16:05 liborc-test-0.4.so.0 -> liborc-test-0.4.so.0.25.0
+-rwxr-xr-x 1 root   37120 May 31 16:05 liborc-test-0.4.so.0.25.0
+-rwxr-xr-x 1 root     921 May 31 16:00 libpng16.la
+lrwxrwxrwx 1 root      19 May 31 16:00 libpng16.so -> libpng16.so.16.37.0
+lrwxrwxrwx 1 root      19 May 31 16:00 libpng16.so.16 -> libpng16.so.16.37.0
+-rwxr-xr-x 1 root  285720 May 31 16:00 libpng16.so.16.37.0
+lrwxrwxrwx 1 root      11 May 31 16:00 libpng.la -> libpng16.la
+lrwxrwxrwx 1 root      11 May 31 16:00 libpng.so -> libpng16.so
+-rw-r--r-- 1 root 6609278 May 31 16:11 libvips.a
+-rw-r--r-- 1 root  399402 May 31 16:11 libvips-cpp.a
+-rwxr-xr-x 1 root    1278 May 31 16:11 libvips-cpp.la
+lrwxrwxrwx 1 root      22 May 31 16:11 libvips-cpp.so -> libvips-cpp.so.42.12.3
+lrwxrwxrwx 1 root      22 May 31 16:11 libvips-cpp.so.42 -> libvips-cpp.so.42.12.3
+-rwxr-xr-x 1 root  257848 May 31 16:11 libvips-cpp.so.42.12.3
+-rwxr-xr-x 1 root    1230 May 31 16:11 libvips.la
+lrwxrwxrwx 1 root      18 May 31 16:11 libvips.so -> libvips.so.42.12.3
+lrwxrwxrwx 1 root      18 May 31 16:11 libvips.so.42 -> libvips.so.42.12.3
+-rwxr-xr-x 1 root 4293368 May 31 16:11 libvips.so.42.12.3
+-rw-r--r-- 1 root 1059222 May 31 16:02 libwebp.a
+-rw-r--r-- 1 root  587612 May 31 16:02 libwebpdecoder.a
+-rwxr-xr-x 1 root     973 May 31 16:02 libwebpdecoder.la
+lrwxrwxrwx 1 root      23 May 31 16:02 libwebpdecoder.so -> libwebpdecoder.so.3.1.1
+lrwxrwxrwx 1 root      23 May 31 16:02 libwebpdecoder.so.3 -> libwebpdecoder.so.3.1.1
+-rwxr-xr-x 1 root  404664 May 31 16:02 libwebpdecoder.so.3.1.1
+-rw-r--r-- 1 root   15826 May 31 16:02 libwebpdemux.a
+-rwxr-xr-x 1 root     979 May 31 16:02 libwebpdemux.la
+lrwxrwxrwx 1 root      21 May 31 16:02 libwebpdemux.so -> libwebpdemux.so.2.0.7
+lrwxrwxrwx 1 root      21 May 31 16:02 libwebpdemux.so.2 -> libwebpdemux.so.2.0.7
+-rwxr-xr-x 1 root   21736 May 31 16:02 libwebpdemux.so.2.0.7
+-rwxr-xr-x 1 root     924 May 31 16:02 libwebp.la
+-rw-r--r-- 1 root   57384 May 31 16:02 libwebpmux.a
+-rwxr-xr-x 1 root     965 May 31 16:02 libwebpmux.la
+lrwxrwxrwx 1 root      19 May 31 16:02 libwebpmux.so -> libwebpmux.so.3.0.6
+lrwxrwxrwx 1 root      19 May 31 16:02 libwebpmux.so.3 -> libwebpmux.so.3.0.6
+-rwxr-xr-x 1 root   49200 May 31 16:02 libwebpmux.so.3.0.6
+lrwxrwxrwx 1 root      16 May 31 16:02 libwebp.so -> libwebp.so.7.1.1
+lrwxrwxrwx 1 root      16 May 31 16:02 libwebp.so.7 -> libwebp.so.7.1.1
+-rwxr-xr-x 1 root  720376 May 31 16:02 libwebp.so.7.1.1
+drwxr-xr-x 1 root    4096 May 31 16:11 pkgconfig/
 
 $ ls -lAGp /opt/include
--rw-r--r-- 1 root     6942 Sep 19 22:47 libimagequant.h
+-rw-r--r-- 1 root  3836 May 31 16:00 expat_config.h
+-rw-r--r-- 1 root  5528 May 31 16:00 expat_external.h
+-rw-r--r-- 1 root 41473 May 31 16:00 expat.h
+-rw-r--r-- 1 root   792 May 31 16:06 ffi.h
+-rw-r--r-- 1 root   840 May 31 16:06 ffitarget.h
+-rw-r--r-- 1 root  4343 May 31 16:06 ffitarget-x86_64.h
+-rw-r--r-- 1 root 13481 May 31 16:06 ffi-x86_64.h
+-rw-r--r-- 1 root  2447 May 31 16:05 fftw3.f
+-rw-r--r-- 1 root 54596 May 31 16:05 fftw3.f03
+-rw-r--r-- 1 root 31394 May 31 16:05 fftw3.h
+-rw-r--r-- 1 root 26983 May 31 16:05 fftw3l.f03
+-rw-r--r-- 1 root 25682 May 31 16:05 fftw3q.f03
+-rw-r--r-- 1 root 12986 May 31 16:00 gif_lib.h
+drwxr-xr-x 3 root  4096 May 31 16:07 gio-unix-2.0/
+drwxr-xr-x 5 root  4096 May 31 16:07 glib-2.0/
+drwxr-xr-x 2 root  4096 May 31 16:07 gobject-introspection-1.0/
+-rw-r--r-- 1 root  2166 May 31 16:00 jconfig.h
+-rw-r--r-- 1 root 15177 Dec 31  2019 jerror.h
+-rw-r--r-- 1 root 15143 Dec 31  2019 jmorecfg.h
+-rw-r--r-- 1 root 50281 Dec 31  2019 jpeglib.h
+-rw-r--r-- 1 root  6942 May 31 16:02 libimagequant.h
+drwxr-xr-x 2 root  4096 May 31 16:00 libpng16/
+drwxr-xr-x 4 root  4096 May 31 16:05 orc-0.4/
+lrwxrwxrwx 1 root    18 May 31 16:00 pngconf.h -> libpng16/pngconf.h
+lrwxrwxrwx 1 root    14 May 31 16:00 png.h -> libpng16/png.h
+lrwxrwxrwx 1 root    21 May 31 16:00 pnglibconf.h -> libpng16/pnglibconf.h
+-rw-r--r-- 1 root 73889 Dec 31  2019 turbojpeg.h
+drwxr-xr-x 2 root  4096 May 31 16:11 vips/
+drwxr-xr-x 2 root  4096 May 31 16:02 webp/
 ```
 
 ## Alternatives
