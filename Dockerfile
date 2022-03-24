@@ -11,6 +11,11 @@ ENV PKG_CONFIG_PATH=/opt/lib/pkgconfig:/opt/lib64/pkgconfig
 ENV CFLAGS="-fexceptions -Wall -O3"
 ENV CXXFLAGS="${CFLAGS}"
 
+# Update the list of trusted CA certificates
+#
+RUN yum update -y \
+    ca-certificates
+
 # Setup Some Dirs
 #
 RUN mkdir -p \
