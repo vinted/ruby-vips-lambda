@@ -2,7 +2,7 @@ FROM lambci/lambda:build-ruby2.7
 
 WORKDIR /build
 
-ARG VIPS_VERSION=8.10.0
+ARG VIPS_VERSION=8.12.2
 
 ENV VIPS_VERSION=$VIPS_VERSION
 ENV PATH=/opt/bin:$PATH
