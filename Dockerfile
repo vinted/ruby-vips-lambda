@@ -152,9 +152,9 @@ RUN cp -a /opt/lib64/libffi.so* /build/share/lib && \
     cp -a /opt/lib64/libgobject-2.0.so* /build/share/lib && \
     cp -a /opt/lib64/libgthread-2.0.so* /build/share/lib
 
-RUN curl -L http://ftp.gnome.org/pub/gnome/sources/gobject-introspection/1.64/gobject-introspection-1.64.1.tar.xz > gobject-introspection-1.64.1.tar.xz && \
-    tar -xf gobject-introspection-1.64.1.tar.xz && \
-    cd gobject-introspection-1.64.1 && \
+RUN curl -L http://ftp.gnome.org/pub/gnome/sources/gobject-introspection/1.72/gobject-introspection-1.72.0.tar.xz > gobject-introspection-1.72.0.tar.xz && \
+    tar -xf gobject-introspection-1.72.0.tar.xz && \
+    cd gobject-introspection-1.72.0 && \
     mkdir ./_build && \
     cd ./_build && \
     meson --prefix=/opt .. && \
